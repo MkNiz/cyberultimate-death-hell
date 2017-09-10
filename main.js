@@ -4,6 +4,12 @@
  | by Michael Nizzari (a.k.a. CYBEReris)
 */
 
-var playerName = "Biokeith Killgood";
-var playerHealth = 120;
-var playerLocation = "West Burnsfire";
+var player = {
+  name: "Biokeith Killgood",
+  health: 120,
+  location: "West Burnsfire"
+};
+
+console.log("-- " + player.location.toUpperCase() + " --");
+console.log("NAME: " + player.name);
+console.log("HEALTH: " + player.health);
